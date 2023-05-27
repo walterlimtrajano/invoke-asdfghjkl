@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'prompt', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+background: rgb(2, 0, 36);
+background: linear-gradient(90deg, rgba(2,0,36,1)0%, rgba(67, 67, 162,1) 47%, rgba(0, 212, 255, 1) 100%);
+}
+nav{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+nav img{
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(2, 0 , 36);
+    margin: 10px;
+}
+nav h1 {
+    font-size: 20px;
+}
+header{
+    display: flex;
+    width: 80%;
+    margin: auto 0 ;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.header-content h2{
+    font-size: 50px;
+} 
+.header-img img {
+    height: 400px;
+    opacity: .7;
+    border-radius: 72% 28% 41% 59% / 46% 23% 77% 54% ;
+    animation: movimento 5s  infinite alternate;
+}
+@keyframes movimento {
+    0%, 100%{
+        border-radius: 79% 24% 47% 69% / 66% 33% 70% 48% ;
+        box-shadow: 0px 0px 100px white;
+    }50%{
+        border-radius: 70% 26% 43% 57% / 44% 21% 75% 52% ;
+        box-shadow: white;
+    }
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.apresentação{
+    display: flex;
+    align-items: center;
+}
+.conte-conosco{
+    width: 40%;
+}
+.conte-conosco h3{
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.conte-conosco img{
+    height: 70%;
+    width: 100%;
+    border-radius: 29% 71% 26% 74% / 32% 66% 34% 68% ;
+    margin-top: 50px;
+}
+.filosofia{
+    width: 60%;
+}
+.filosofia p{
+    font-size: 50px;
+    padding: 10px 50px;
+    line-height: 45px;
+}
+
+.barra{
+    height: 2px;
+    width: 80%;
+    margin: 100px auto;
+    background-color: white;
+}
+.produtos h3{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid;
+    padding: 10px 50px;
+}
+.produtos p{
+    font-size: 20px;
+    margin-top: 30px;
+    text-indent: 50px;
+}
+.produtos .banners{
+    border: 1px solid;
+    display:flex;
+    justify-content: space-between;
+}
+.banner{
+    border: 1px solid;
+    background-color: white;
+    margin: 50px;
+    width: 30%;
+    height: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.banner p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600px;
+    margin: 33px 0;
+    text-align: center;
+}
+.banner btn{
+    color: black;
+    background-color: blue;
+    padding: 15px;
+    border: nome;
+     
+}
